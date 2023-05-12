@@ -1,0 +1,11 @@
+[rhel-8-for-x86_64-baseos-rpms-mirror]
+name = Mirror Red Hat Enterprise Linux 8 for x86_64 - BaseOS (RPMs)
+baseurl = http://192.168.1.157/rhel-8-for-x86_64-baseos-rpms
+enabled = 1
+gpgcheck = 0
+
+[rhel-8-for-x86_64-appstream-rpms-mirror]
+name = Mirror Red Hat Enterprise Linux 8 for x86_64 - AppStream (RPMs)
+baseurl = http://192.168.1.157/rhel-8-for-x86_64-appstream-rpms
+enabled = 1
+gpgcheck = 0

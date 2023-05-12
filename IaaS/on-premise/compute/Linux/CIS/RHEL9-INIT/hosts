@@ -1,0 +1,2 @@
+[pigsty]
+192.168.1.201 ansible_ssh_user=root ansible_ssh_password=redhat

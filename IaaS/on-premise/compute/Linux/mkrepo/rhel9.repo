@@ -1,0 +1,17 @@
+[rhel-9-for-x86_64-baseos-rpms-mirror]
+name = Mirror Red Hat Enterprise Linux 9 for x86_64 - BaseOS (RPMs)
+baseurl = http://192.168.1.251/rhel-9-for-x86_64-baseos-rpms
+enabled = 1
+gpgcheck = 0
+
+[rhel-9-for-x86_64-appstream-rpms-mirror]
+name = Mirror Red Hat Enterprise Linux 9 for x86_64 - AppStream (RPMs)
+baseurl = http://192.168.1.251/rhel-9-for-x86_64-appstream-rpms
+enabled = 1
+gpgcheck = 0
+
+[ansible-automation-platform-2.3-for-rhel-9-x86_64-source-rpms]
+name = Red Hat Ansible Automation Platform 2.3 for RHEL 9 x86_64 (Source RPMs)
+baseurl = http://192.168.1.251/ansible-automation-platform-2.3-for-rhel-9-x86_64-source-rpms
+enabled = 1
+gpgcheck = 0
