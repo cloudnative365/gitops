@@ -81,7 +81,7 @@ resource "vsphere_virtual_machine" "standalone" {
 
   firmware = "efi"
 
-  tags = ["IT Service"]
+  #tags = ["IT Service"]
 
   network_interface {
     network_id   = "${data.vsphere_network.mgt_network.id}"

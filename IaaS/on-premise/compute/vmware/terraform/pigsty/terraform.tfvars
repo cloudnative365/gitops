@@ -6,7 +6,7 @@
 vsphere_vcenter = "192.168.1.200"
 
 # vSphere username used to deploy the infrastructure #
-vsphere_user = "terraform@vsphere.local"
+vsphere_user = "administrator@vsphere.local"
 
 # vSphere password used to deploy the infrastructure #
 # vsphere_password = ""
@@ -51,7 +51,7 @@ vm_dns2 = "8.8.8.8"
 vm_domain = "test.terraform"
 
 # The vSphere template the virtual machine is based on #
-vm_template = "rhel9"
+vm_template = "cis-rhel9"
 
 # Use linked clone (true/false)
 vm_linked_clone = "false"
